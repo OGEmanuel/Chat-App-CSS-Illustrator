@@ -1,0 +1,49 @@
+//FONT FAMILY
+$font: 'Rubik', sans-serif;
+
+
+//COLORS
+//Primary
+$color-pale: hsl(276, 100%, 81%); //- Pale Violet (sub-heading at the top of the app UI)
+$color-moderate: hsl(276, 55%, 52%); //- Moderate Violet (chat on the left)
+$color-dark: hsl(271, 15%, 43%); //- Desaturated Dark Violet (chat on the right)
+$color-grayish-blue: hsl(206, 6%, 79%); //- Grayish Blue (placeholder text)
+$color-very-dark: hsl(271, 36%, 24%); //- Very Dark Desaturated Violet (main heading)
+$color-dark-grayish: hsl(270, 7%, 64%); //- Dark Grayish Violet (paragraph)
+
+//Gradient
+$color-magenta: hsl(293, 100%, 63%); //- Light Magenta
+$color-violet: hsl(264, 100%, 61%); //- Light Violet
+
+//Secondary
+$color-white: hsl(0, 0%, 100%); //- White
+$color-light: hsl(270, 20%, 96%); //- Light Grayish Violet (app background)
+//$color-very-dark: hsl(271, 36%, 24%); //- Very Dark Desaturated Violet (submit button background)
+$color-very-light: hsl(289, 100%, 72%); //- Very Light Magenta (radio button outline)
+$bg-color: hsl(270, 20%, 90%);
+$msg-bxsdw: rgba(62, 39, 83, .2);
+$container-bxsdw: rgba(62, 39, 83, 0.3);
+
+
+// MEDIA QUERY MANAGER
+/* 
+0 - 600px:      Phone
+600 - 900px:    Tablet portrait
+900 - 1200px:   Tablet Landscape
+[1200 - 1800px] is where our normal styles apply
+1800px + : Big desktop
+
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+ORDER: Base + typography > general layout + grid > page layout > components
+
+1em = 16px
+*/
+$Tablet-landscape: 68.75em; // 1100px / 16px
+$Tablet-portrait: 55.625em; // 890px / 16px
+$Phone: 37.5em; // 600px / 16px
+

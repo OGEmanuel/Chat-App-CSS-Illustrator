@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+      <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">  
+      <link rel="stylesheet" href="css/style.css">
+    
+      <link rel="icon" type="img/png" sizes="32x32" href="./img/favicon-32x32.png">
+      
+      <title>Frontend Mentor | Chat App CSS Illustrator</title>
+</head>
+<body>
+  <header class="header">
+    <div class="bg-gradient"></div>
+  </header>
+
+  <main>
+    <section class="container">
+      <div class="user-profile">
+        <svg class="left-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/>
+        </svg>
+        <div class="user-profile__img">
+          <img src="/img/avatar.jpg" alt="avatar" class="img">
+        </div>
+        <div class="user-profile__text">
+          <p class="user-profile__text--name">Samuel Green</p>
+          <p class="user-profile__text--status">Available to Walk</p>
+        </div>
+        <svg class="dots" xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="#000000" viewBox="0 0 256 256">
+          <rect width="256" height="256" fill="none">
+          </rect>
+          <circle cx="128" cy="128" r="12">
+          </circle>
+          <circle cx="128" cy="64" r="12">
+          </circle><circle cx="128" cy="192" r="12">
+          </circle>
+        </svg>
+      </div>
+
+      <div class="user-inbox">
+        <div class="user-inbox__in">
+          <p>That sounds great. I&rsquo;d be happy with that.</p>
+        </div>
+
+        <div class="user-inbox__in">
+          <p>Could you send over some pictures of your dog, please?</p>
+        </div>
+
+        <div class="user-inbox__out">
+
+          <div class="d-flex">
+            <div class="img">
+              <img src="/img/dog-image-1.jpg" alt="dog 1" class="img-dog">
+            </div>
+
+            <div class="img">
+              <img src="/img/dog-image-2.jpg" alt="dog 2" class="img-dog">
+            </div>
+
+            <div class="img">
+              <img src="/img/dog-image-3.jpg" alt="dog 3" class="img-dog">
+            </div>
+          </div>
+
+          <div class="user-inbox__out--text">
+            <p class="user-inbox__out--text-msg width">Here are a few pictures. She&rsquo;s a happy girl!</p>
+          </div>
+
+          <div class="user-inbox__out--text">
+            <p class="user-inbox__out--text-msg margin">Can you make it?</p>
+          </div>
+        </div>
+
+        <div class="user-inbox__in">
+          <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+        </div>
+        
+
+        <div class="price-bar">
+          <p class="price-bar__period">30 minute walk</p>
+          <p class="price-bar__price">$29</p>
+        </div>
+
+        <div class="price-bar bottom">
+          <p class="price-bar__period">1 hour walk</p>
+          <p class="price-bar__price">$49</p>
+        </div>
+      </div>
+
+      <input type="text" class="text-bar" placeholder="Type a message…">
+      <div class="right-arrow">
+        <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="192" height="192" fill="#fff" viewBox="0 0 256 256">
+          <rect width="256" height="256" fill="none">
+          </rect>
+          <polyline points="96 48 176 128 96 208" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="24">
+          </polyline>
+        </svg>
+      </div>
+    </section>
+
+    <section class="text-paragraph">
+      <h1 class="text-main">Simple booking</h1>
+      <p class="text-sub">Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+        discuss arrangements and make bookings. Once the walk has been completed you can rate 
+        your walker and book again all through the chat.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/OGEmanuel">Ogunmola Emmanuel I</a>.
+    </div>
+  </footer>
+</body>
+</html>

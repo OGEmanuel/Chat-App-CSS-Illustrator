@@ -1,0 +1,46 @@
+.user-inbox {
+
+    .price-bar {
+        display: flex;
+        width: 75%;
+        background-image: linear-gradient(
+                          to right, 
+                          $color-magenta,
+                          $color-violet);
+        margin-bottom: .5rem;
+        align-items: flex-end;
+        padding: .7rem;
+        border-radius: .7rem;
+        border-bottom-left-radius: .3rem;
+        justify-content: space-between;
+        position: relative;
+
+        &::before {
+            content: "";
+            display: block;
+            width: 8%;
+            height: 38%;
+            position: absolute;
+            border-radius: 50%;
+            top: 30%;
+            left: 5%;
+            border: .1rem solid $color-very-light;
+            background-color: transparent; 
+        }
+
+        &__period {
+            margin-left: 1.2rem;
+            color: $color-pale;
+        }
+
+        &__price {
+            font-size: .6rem;
+            font-weight: 500;
+            color: $color-white;
+        }
+    }
+
+    .bottom {
+        margin-bottom: auto;
+    }
+}

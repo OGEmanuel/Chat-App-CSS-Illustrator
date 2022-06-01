@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    //this defines what 1rem is
+    font-size: 100%; //1rem = 16px; 16px/16px = 100%
+    overflow-x: hidden;
+
+    @media only screen and (max-width: $Tablet-portrait) {
+        font-size: 77%;
+    }
+
+    @media only screen and (max-width: $Phone) {
+        font-size: 100%;
+    }
+}
+ body {
+     overflow-x: hidden;
+    background-color: $color-light;
+
+     img {
+        max-width: 100%;
+     }
+ }

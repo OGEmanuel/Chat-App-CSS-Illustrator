@@ -1,0 +1,13 @@
+@mixin flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@mixin bg-gradient {
+    content: "";
+    display: block;
+    width: 30%;
+    height: 93%;
+    position: absolute;
+    z-index: -1;
+}

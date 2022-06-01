@@ -1,0 +1,40 @@
+.bg-gradient {
+    &::before {
+        @include bg-gradient;
+        top: 0;
+        left: 0;
+        transform: translateX(-20%);
+        background-image: linear-gradient(
+                          to bottom, 
+                          $color-magenta,
+                          $color-violet);
+        border-bottom-right-radius: 20rem;
+        border-bottom-left-radius: 20rem;
+
+        @media only screen and (max-width: $Phone) {
+            width: 100%;
+            top: 0;
+            left: 50%;
+            transform: translate(-100%, 0%);
+            height: 35rem;
+        }
+    }
+
+    &::after {
+        @include bg-gradient;
+        top: 50%;
+        left: 50%;
+        transform: translate(80%, -46.2%);
+        background-color: $bg-color;
+        border-top-right-radius: 20rem;
+        border-top-left-radius: 20rem;
+
+        @media only screen and (max-width: $Phone) {
+            top: 80%;
+            left: 60%;
+            height: 100vh;
+            transform: translate(10%, -50%);
+            width: 45%;
+        }
+    }
+}

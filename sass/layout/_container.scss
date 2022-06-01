@@ -1,0 +1,42 @@
+.container {
+    position: absolute;
+    top: 7%;
+    left: 18.7%;
+    max-width: 16.9rem;
+    width: 24%;
+    background-color: $color-light;
+    border: .6rem solid $color-white;
+    border-radius: 1.6rem;
+    box-shadow: 1rem 1rem 3rem $container-bxsdw;
+
+    @media only screen and (max-width: $Tablet-landscape) {
+        width: 30%;
+        left: 16.1%;
+    } 
+
+    @media only screen and (max-width: $Tablet-portrait) {
+        width: 50%;
+    }
+
+    @media only screen and (max-width: $Phone) {
+        position: absolute;
+        max-width: 17rem;
+        margin: 0 auto;
+        width: 80%;
+        left: 18.3%;
+        top: 10%;
+        left: 12%;
+    }
+
+    &::before {
+        content: "";
+        display: block;
+        width: 50%;
+        height: 6%;
+        position: absolute;
+        top: -1.7%;
+        left: 25%;
+        background-color: $color-white;
+        border-radius: .7rem;
+    }
+}

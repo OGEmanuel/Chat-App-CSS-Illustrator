@@ -1,0 +1,59 @@
+.user-inbox {
+    padding: 1rem .7rem 1rem .7rem;
+    font-size: .5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    animation: moveOut 1s ease-in; //name duration timing-function delay iteration-count direction fill-mode
+    transition: all 1s;
+
+    &__in {
+        background-color: $bg-color;
+        color: $color-moderate;
+        margin-bottom: .5rem;
+        padding: .5rem .6rem .5rem .5rem;
+        width: 60%;
+        border-radius: .7rem;
+        border-bottom-left-radius: .3rem;
+    }
+
+    &__out {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        .img {
+            width: 20%;
+            margin: .5rem 0 .3rem .5rem;
+
+            &-dog {
+                border-radius: .7rem;
+            }         
+        }
+
+        &--text {
+            @include flex-end;
+            color: $color-dark;
+
+            &-msg {
+                background-color: $color-white;
+                border-radius: .7rem;
+                border-bottom-right-radius: .3rem;
+                padding: .4rem .6rem .4rem .5rem;
+                margin-bottom: .5rem;
+                box-shadow: 0 .3rem .5rem $msg-bxsdw;
+            }
+        }
+
+        .width {
+            width: 62%;
+        }
+
+        .margin {
+            margin-bottom: .8rem;
+        }
+    }
+}
+
+.d-flex {
+    @include flex-end;
+}
