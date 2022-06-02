@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY/hub/responsive-chat-app-illustration-with-flexbox-yYuhgfxoZ8)
+- Live Site URL: [Netlify](https://cool-gelato-8454ea.netlify.app/)
 
 ## My process
 
